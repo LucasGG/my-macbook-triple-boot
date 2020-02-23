@@ -83,10 +83,10 @@ sudo update-alternatives --all
 
 # Referências
 
-[1] https://wiki.archlinux.org/index.php/LVM
-[2] https://wiki.archlinux.org/index.php/Dm-crypt/Encrypting_an_entire_system
-[3] https://www.howtoforge.com/linux_lvm
-[4] https://bbs.archlinux.org/viewtopic.php?id=178158
-[5] https://askubuntu.com/questions/1066028/install-ubuntu-18-04-desktop-with-raid-1-and-lvm-on-machine-with-uefi-bios
-[6] https://itsfoss.com/create-swap-file-linux/
-[7] https://askubuntu.com/questions/1032546/should-i-use-luks1-or-luks2-for-partition-encryption
+- [1] https://wiki.archlinux.org/index.php/LVM
+- [2] https://wiki.archlinux.org/index.php/Dm-crypt/Encrypting_an_entire_system
+- [3] https://www.howtoforge.com/linux_lvm
+- [4] https://bbs.archlinux.org/viewtopic.php?id=178158
+- [5] https://askubuntu.com/questions/1066028/install-ubuntu-18-04-desktop-with-raid-1-and-lvm-on-machine-with-uefi-bios
+- [6] https://itsfoss.com/create-swap-file-linux/
+- [7] https://askubuntu.com/questions/1032546/should-i-use-luks1-or-luks2-for-partition-encryption
