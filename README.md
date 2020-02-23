@@ -22,7 +22,7 @@ pvcreate /dev/sda?
 vgcreate mondrian /dev/sda?
 lvcreate --name boot --size 300M mondrian
 lvcreate --name root --size 28G mondrian
-lvcreate --name home --size 100G mondrian 
+lvcreate --name home --size 100G mondrian
 ```
 
 Para criptografia veja [2] e [7].
@@ -41,13 +41,14 @@ apt remove --purge snapd printer-driver-brlaser printer-driver-foo2zjs \
 printer-driver-foo2zjs-common printer-driver-m2300w printer-driver-ptouch \
 printer-driver-splix ubuntu-advantage-tools popularity-contest whoopsie \
 ubuntu-software gnome-software apport gnome-shell-extension-appindicator \
-gnome-shell-extension-ubuntu-dock gsettings-ubuntu-schemas
+gnome-shell-extension-ubuntu-dock gsettings-ubuntu-schemas ubuntu-session
 apt-get autoremove --purge
 apt-get autoclean
 apt-get clean
 
 apt-get update
-apt-get install --no-install-recommends curl gnome-tweaks apt-transport-https
+apt-get install --no-install-recommends curl gnome-tweaks apt-transport-https \
+gnome-session
 apt-get dist-upgrade --no-install-recommends
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
