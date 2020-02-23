@@ -15,13 +15,14 @@ swap file).
 - Garantir que MBR está em modo protegido no fim
 - Criar primeira partição com tamanho 500 MiB de tipo EFI Boot Partition.
 
+Veja [3] para os passos a seguir...
+
 ```shell
 pvcreate /dev/sda?
 vgcreate mondrian /dev/sda?
 lvcreate --name boot --size 300M mondrian
 lvcreate --name root --size 28G mondrian
-lvcreate --name home --size 100G mondrian
-# ...
+lvcreate --name home --size 100G mondrian 
 ```
 
 Para criptografia veja [2] e [7].
@@ -30,7 +31,7 @@ Para criptografia veja [2] e [7].
 
 - `grub-install --target=x86_64-efi /dev/sda`
 - Mudar MBR para modo protegido.
-
+- Configurar mounts no `/etc/fstab`
 
 # Pós-instalação
 
