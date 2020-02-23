@@ -92,3 +92,4 @@ sudo update-alternatives --all
 - [5] https://askubuntu.com/questions/1066028/install-ubuntu-18-04-desktop-with-raid-1-and-lvm-on-machine-with-uefi-bios
 - [6] https://itsfoss.com/create-swap-file-linux/
 - [7] https://askubuntu.com/questions/1032546/should-i-use-luks1-or-luks2-for-partition-encryption
+- [8] https://superuser.com/questions/1067150/how-to-create-swapfile-on-ssd-disk-with-btrfs/1411462#1411462
