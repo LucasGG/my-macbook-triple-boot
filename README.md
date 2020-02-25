@@ -32,6 +32,7 @@ Para criptografia veja [2] e [7].
 - `grub-install --target=x86_64-efi /dev/sda`
 - Mudar MBR para modo protegido.
 - Configurar mounts no `/etc/fstab`
+- swapfile pode ser feito dentro da partição criptografada (veja [8])
 
 # Pós-instalação
 
