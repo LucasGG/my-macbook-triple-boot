@@ -72,10 +72,11 @@ rm gnome-shell-extension-installer
 sudo update-alternatives --all
 ```
 
-- Baixar fontes: FiraCode e Cantarell
+- Baixar fontes: Cantarell, a fonte Fira Code Z está no repositório
 - Baixar e aplicar temas do Mondrian
 - Aplicar fontes e desativar antialiasing RGB, desativar hinting.
 - Fazer o git funcionar com o seahorse: https://askubuntu.com/questions/773455/what-is-the-correct-way-to-use-git-with-gnome-keyring-and-https-repos
+- Aplicar configurações de DNS [9]
 
 # Ativar Refind
 
@@ -94,3 +95,4 @@ sudo update-alternatives --all
 - [6] https://itsfoss.com/create-swap-file-linux/
 - [7] https://askubuntu.com/questions/1032546/should-i-use-luks1-or-luks2-for-partition-encryption
 - [8] https://superuser.com/questions/1067150/how-to-create-swapfile-on-ssd-disk-with-btrfs/1411462#1411462
+- [9] https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/
