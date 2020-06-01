@@ -1,4 +1,3 @@
-
 PROMPT="%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )"
 PROMPT+='%{$fg_bold[blue]%}(%{$fg[cyan]%}%c%{$fg_bold[blue]%})%{$reset_color%} '
 RPS1='$(git_prompt_info)$(ruby_prompt_info)'
